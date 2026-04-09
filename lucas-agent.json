@@ -1,0 +1,21 @@
+{
+  "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
+  "name": "Lucas",
+  "description": "Abstract Intern, an onchain AI assistant for OpenClaw workflows, wallet actions, and agent automation on Abstract.",
+  "image": "https://0xmeowmeowmeow-stack.github.io/lucas-erc8004/lucas.jpg",
+  "wallet": "0x83B66A272eeA2896f0E3973665ca4101D6EdeA0B",
+  "services": [
+    {
+      "name": "OpenClaw Agent Interface",
+      "endpoint": "local://openclaw/lucas",
+      "version": "2026-04-09"
+    },
+    {
+      "name": "AGW CLI MCP Interface",
+      "endpoint": "local://agw-cli/mcp",
+      "version": "2026-04-09"
+    }
+  ],
+  "active": true,
+  "registrations": []
+}
