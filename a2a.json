@@ -1,0 +1,15 @@
+{
+  "name": "Lucas A2A Interface",
+  "description": "A draft A2A descriptor for Lucas, an onchain AI assistant on Abstract.",
+  "agentId": 716,
+  "wallet": "0x83B66A272eeA2896f0E3973665ca4101D6EdeA0B",
+  "version": "2026-04-09",
+  "endpoint": "https://0xmeowmeowmeow-stack.github.io/lucas-erc8004/a2a.json",
+  "capabilities": [
+    "OpenClaw workflow assistance",
+    "Abstract wallet operations",
+    "Agent task coordination",
+    "Tool-augmented automation"
+  ],
+  "status": "draft"
+}

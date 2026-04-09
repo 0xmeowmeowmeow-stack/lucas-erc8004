@@ -1,0 +1,14 @@
+{
+  "name": "Lucas MCP Interface",
+  "description": "A draft MCP descriptor for Lucas, exposing tool and wallet integration intent.",
+  "agentId": 716,
+  "wallet": "0x83B66A272eeA2896f0E3973665ca4101D6EdeA0B",
+  "version": "2026-04-09",
+  "endpoint": "https://0xmeowmeowmeow-stack.github.io/lucas-erc8004/mcp.json",
+  "tools": [
+    "OpenClaw session context",
+    "AGW CLI wallet access",
+    "Abstract chain operations"
+  ],
+  "status": "draft"
+}
