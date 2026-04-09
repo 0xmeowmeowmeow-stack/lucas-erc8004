@@ -1,14 +1,25 @@
 {
   "name": "Lucas MCP Interface",
-  "description": "A draft MCP descriptor for Lucas, exposing tool and wallet integration intent.",
+  "description": "Lucas exposes a draft MCP descriptor for tool orchestration, OpenClaw workflow context, and Abstract wallet-aware automation.",
   "agentId": 716,
   "wallet": "0x83B66A272eeA2896f0E3973665ca4101D6EdeA0B",
   "version": "2026-04-09",
   "endpoint": "https://0xmeowmeowmeow-stack.github.io/lucas-erc8004/mcp.json",
-  "tools": [
+  "status": "draft",
+  "transport": {
+    "type": "descriptor-only",
+    "note": "This page currently describes MCP intent and surface area. A live MCP endpoint can replace this URL later."
+  },
+  "toolDomains": [
     "OpenClaw session context",
     "AGW CLI wallet access",
-    "Abstract chain operations"
+    "Abstract chain operations",
+    "Workflow execution support",
+    "Agent tooling orchestration"
   ],
-  "status": "draft"
+  "usagePolicy": {
+    "humanApproval": "Required for sensitive external actions, wallet mutations, and high-risk chain operations.",
+    "privacy": "Private workspace and user context should not be exposed unnecessarily.",
+    "executionMode": "Tool-assisted, human-aware, and automation-friendly."
+  }
 }
