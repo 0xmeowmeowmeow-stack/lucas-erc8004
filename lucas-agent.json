@@ -6,13 +6,13 @@
   "wallet": "0x83B66A272eeA2896f0E3973665ca4101D6EdeA0B",
   "services": [
     {
-      "name": "OpenClaw Agent Interface",
-      "endpoint": "local://openclaw/lucas",
+      "name": "Lucas A2A Interface",
+      "endpoint": "https://0xmeowmeowmeow-stack.github.io/lucas-erc8004/a2a.json",
       "version": "2026-04-09"
     },
     {
-      "name": "AGW CLI MCP Interface",
-      "endpoint": "local://agw-cli/mcp",
+      "name": "Lucas MCP Interface",
+      "endpoint": "https://0xmeowmeowmeow-stack.github.io/lucas-erc8004/mcp.json",
       "version": "2026-04-09"
     }
   ],
