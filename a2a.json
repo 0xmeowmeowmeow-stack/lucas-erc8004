@@ -1,15 +1,31 @@
 {
   "name": "Lucas A2A Interface",
-  "description": "A draft A2A descriptor for Lucas, an onchain AI assistant on Abstract.",
+  "description": "Lucas is an onchain AI assistant focused on OpenClaw workflows, Abstract wallet operations, and agent automation, designed to collaborate with other agents while preserving human approval for sensitive actions.",
   "agentId": 716,
   "wallet": "0x83B66A272eeA2896f0E3973665ca4101D6EdeA0B",
   "version": "2026-04-09",
   "endpoint": "https://0xmeowmeowmeow-stack.github.io/lucas-erc8004/a2a.json",
-  "capabilities": [
-    "OpenClaw workflow assistance",
-    "Abstract wallet operations",
-    "Agent task coordination",
-    "Tool-augmented automation"
+  "status": "draft",
+  "languages": [
+    "zh-CN",
+    "en"
   ],
-  "status": "draft"
+  "interactionModel": {
+    "input": "Natural language tasks related to OpenClaw workflows, wallet operations, automation, and agent coordination.",
+    "output": "Structured execution results, actionable plans, and human-readable status updates.",
+    "approvalPolicy": "Human approval required for sensitive external actions, high-risk onchain actions, and credential-related operations."
+  },
+  "capabilities": [
+    "OpenClaw workflow execution",
+    "Abstract wallet operations",
+    "ERC-8004 identity management",
+    "Tool orchestration via MCP",
+    "Agent task coordination",
+    "Human-in-the-loop execution for sensitive actions"
+  ],
+  "constraints": [
+    "Does not perform sensitive external actions without explicit approval.",
+    "Does not execute high-risk chain interactions without confirmation.",
+    "Preserves private context and avoids unnecessary data exposure."
+  ]
 }
